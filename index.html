@@ -9,46 +9,56 @@
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+
 	</head>
 
 	<body>
 		<header>
-			<div class="menu">
-				<h1>Lucio Alejo Lee</h1>
+			<div class="contenido-header">
 
-				<nav>
-					<ul>
-						<li><a href="">Sobre mi<a></li>
-						<li><a href="">Skills</a></li>
-						<li><a href="">Formacion</a></li>
-						<li><a href="">Proyectos</a></li>
-						<li><a href="">Contacto</a></li>
-					</ul>
-				</nav>
-
+				<div class="menu">
+					<h1>Lucio Alejo Lee</h1>
+					
+					<nav>
+						<ul>
+							<li><a href="#sobremi">Sobre mi<a></li>
+							<li><a href="#skills">Skills</a></li>
+							<li><a href="#formacion">Formacion</a></li>
+							<li><a href="#proyectos">Proyectos</a></li>
+							<li><a href="#contacto">Contacto</a></li>
+						</ul>
+					</nav>
+						
+				</div>
 			</div>
 		</header>
 
 		<main>
 			<section class="presentacion">
+				<div class="contenido-presentacion">
 
-				<div class="informacion">
-
-					<h2 class="titulo-principal">Hola, mi nombre es Lucio Alejo Lee y contruyo paginas web</h2>
-					<p>Soy estudiante de Ingenieria en Informatica en la Facultad de Ingenieria de la Universidad de Buenos Aires y actualmente estoy participando del programa ONE de Oracle.</p>
-
-					<ul class="redes-sociales">
-						<li><a href="https://github.com/leeLucio">Github <img src="imagenes/github.jpg" alt="logo Github"></a></li>
-						<li><a href="https://www.linkedin.com/in/lucio-lee-696650234/">LinkedIn <img src="imagenes/linkedin.png" alt="logo LinkedIn"></a></li>
-						<li><a href="https://www.instagram.com/lucio._.lee/">Instagram <img src="imagenes/instagram.png" alt="logo Instagram"></a></li>
-					</ul>
+					
+					<div class="informacion">
+						
+						<h2 class="titulo-principal">Hola, mi nombre es Lucio Alejo Lee y contruyo paginas web</h2>
+						<p>Soy estudiante de Ingenieria en Informatica en la Facultad de Ingenieria de la Universidad de Buenos Aires y actualmente estoy participando del programa ONE de Oracle.</p>
+						
+						<ul class="redes-sociales">
+							<li><a href="https://github.com/leeLucio">Github <img src="imagenes/github.jpg" alt="logo Github"></a></li>
+							<li><a href="https://www.linkedin.com/in/lucio-lee-696650234/">LinkedIn <img src="imagenes/linkedin.png" alt="logo LinkedIn"></a></li>
+							<li><a href="https://www.instagram.com/lucio._.lee/">Instagram <img src="imagenes/instagram.png" alt="logo Instagram"></a></li>
+						</ul>
+					</div>
+					
+					<img class="imagen-perfil" src="imagenes/foroperfil.jfif" alt="Foto de Perfil">
 				</div>
-
-				<img class="imagen-perfil" src="imagenes/foroperfil.jfif" alt="Foto de Perfil">
 
 			</section>
 
-			<section class="sobre-mi">
+			<section class="sobre-mi" id="sobremi">
 				<h2 class="titulo-secundario">Sobre mí</h2>
 				<p >
 					Mi nombre es Lucio Alejo Lee. Soy de Argentina y tengo 22 años de edad. Desde pequeño siempre me ha interesado el mundo de la programacion, por eso me encuentro actualmente capacitandome y adquiriendo conocimientos de este. Aún no tengo experiencia como programador pero deseo formar parte de un equipo de trabajo relacionado con él, aplicando mis conocimientos y adquiriendo nuevos en el día a día.
@@ -56,7 +66,7 @@
 				
 			</section>
 
-			<section class="skills">
+			<section class="skills" id="skills">
 				<h2 class="titulo-secundario">Skills</h2>
 				
 				<div class="contenido-cajas">
@@ -125,7 +135,7 @@
 				</div>
 			</section>
 
-			<section class="formacion">
+			<section class="formacion" id="formacion">
 				<h2 class="titulo-secundario">Formacion academica</h2>
 
 				<div class="contenido-formacion">
@@ -144,7 +154,7 @@
 				</div>
 			</section>
 
-			<section class="experiencia">
+			<section class="experiencia" id="proyectos">
 				<h2 class="titulo-secundario">Experiencia personal</h2>
 				<div class="contenido-experiencia">
 
@@ -177,7 +187,7 @@
 			</section>
 
 
-			<section class="contacto">
+			<section class="contacto" id="contacto">
 				
 				<div class="contenido-contacto">
 					<img src="imagenes/contacto.jpg" alt="" >
