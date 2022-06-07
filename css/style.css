@@ -1,5 +1,5 @@
 body{
-	font-family: 'Tiro Devanagari Hindi', serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 header {
@@ -17,16 +17,20 @@ header {
 	width: 85%;
     display: flex;
 	justify-content: space-between;
+	align-items: center;
 	margin:  auto;
 }
 
 h1{
 	margin-bottom: 20px;
 	font-size: 30px;
+	min-width: 210px;
 }
 
 nav ul{
-	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 nav li{
@@ -101,9 +105,15 @@ nav a{
 }
 
 .sobre-mi{
+	padding: 2rem 0 2rem 0;
+	background-color: #EAF2FD;
+}
+
+.container-sobre-mi{
 	max-width: 1200px;
 	width: 85%;
 	margin: 30px auto;
+	
 }
 
 .titulo-secundario{
@@ -402,4 +412,9 @@ footer{
 		width: auto;
 	}
 
+}
+
+.input-container--invalid{
+	color: red;
+	border-color: red;
 }
